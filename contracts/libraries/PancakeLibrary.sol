@@ -1,9 +1,8 @@
 pragma solidity >=0.5.0;
 
-import '@uniswap/v2-core/contracts/interfaces/IPancakePair.sol';
-
 import "./SafeMath.sol";
-import "../intefaces/IPancakeFactory.sol"
+import "../interfaces/IPancakeFactory.sol";
+import "../interfaces/IPancakePair.sol";
 
 library PancakeLibrary {
     using SafeMath for uint;
